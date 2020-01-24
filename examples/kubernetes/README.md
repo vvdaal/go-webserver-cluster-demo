@@ -1,0 +1,1 @@
+You can use "kubectl apply -f ." in this folder to apply and create all these Kubernetes objects.

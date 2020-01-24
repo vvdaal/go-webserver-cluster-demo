@@ -1,0 +1,6 @@
+# Ignore everyhing
+**
+
+# Allow files and directories
+!webserver.go
+!/src**

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cluster-demo
+  namespace: cluster-demo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cluster-demo
+  template:
+    metadata:
+      labels:
+        app: cluster-demo
+    spec:
+      containers:
+      - image: vhwdev/go-webserver-cluster-demo
+        name: cluster-demo
+        ports:
+        - containerPort: 8080
+          protocol: TCP
