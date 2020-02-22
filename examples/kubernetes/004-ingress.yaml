@@ -1,0 +1,8 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: cluster-demo
+spec:
+  backend:
+    serviceName: cluster-demo
+    servicePort: 80
