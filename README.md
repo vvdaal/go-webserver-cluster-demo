@@ -17,10 +17,10 @@ This is a very simple webserver written in Go that outputs information via HTML 
 This is designed to be used with Kubernetes deployments in a cluster or multiple clusters to see if they're working and to print unique information for that cluster. A use case for example is to deploy this to a multi-region anycasted solution in Kubernetes. You could then use https://www.dotcom-tools.com/website-speed-test.aspx (not sponsored) for example to check the resulting screenshots there to see if your routing is working correctly world wide.
 
 ### Example of information visible
-![alt text](docs/exampleinformation.png "Example of information visible")
+![alt text](https://raw.githubusercontent.com/vvdaal/go-webserver-cluster-demo/master/docs/exampleinformation.png "Example of information visible")
 
 ### Result of a rollout to a multi-region (anycasted) Kubernetes cluster
-![alt text](docs/example_checking_deployments.gif "Result of a rollout to a multi-region (anycasted) Kubernetes cluster")
+![alt text](https://raw.githubusercontent.com/vvdaal/go-webserver-cluster-demo/master/docs/example_checking_deployments.gif "Result of a rollout to a multi-region (anycasted) Kubernetes cluster")
 
 ## Distribution
 The code here is automatically build into a docker image and distributed to https://hub.docker.com/r/vhwdev/go-webserver-cluster-demo
@@ -60,4 +60,4 @@ For a custom installation or to modify the templates used in the Quickstart Kube
 
 ## Contributing
 
-Have a great idea to add as information on the webserver? Please open a new branch and create a merge request against mainline.
+Have a great idea to add as information on the webserver? Please open a new branch and create a merge request against master.
