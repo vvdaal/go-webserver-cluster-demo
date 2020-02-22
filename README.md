@@ -38,6 +38,7 @@ kubectl apply -f https://raw.githubusercontent.com/vvdaal/go-webserver-cluster-d
 This requires a working, configured and authenticated kubectl and will create a new namespace called "cluster-demo" within your Kubernetes cluster together with a deployment, service and ingress of this application using the public Docker image. The ingress is configured to listen on port 80 by default.
 
 ## Environment Variables available
+
 |Environment Variable | Default value |
 |---|---|
 | ListenPort | 80 |
@@ -47,6 +48,7 @@ This requires a working, configured and authenticated kubectl and will create a 
 ## HTTP Headers available
 
 The following HTTP headers are available with the corresponding information
+
 | HTTP Header name | Value |
 |---|---|
 | Origin-Cluster-Name | Output of environment value "ClusterName" |
