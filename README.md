@@ -35,13 +35,13 @@ kubectl apply -f https://raw.githubusercontent.com/vvdaal/go-webserver-cluster-d
 kubectl apply -f https://raw.githubusercontent.com/vvdaal/go-webserver-cluster-demo/master/examples/kubernetes/004-ingress.yaml
 ```
 
-This requires a working, configured and authenticated kubectl and will create a new namespace called "cluster-demo" within your Kubernetes cluster together with a deployment, service and ingress of this application using the public Docker image. The ingress is configured to listen on port 80 by default.
+This requires a working, configured and authenticated kubectl and will create a new namespace called "cluster-demo" within your Kubernetes cluster together with a deployment, service and ingress of this application using the public Docker image. The ingress is configured to listen on port 8080 by default.
 
 ## Environment Variables available
 
 |Environment Variable | Default value |
 |---|---|
-| ListenPort | 80 |
+| ListenPort | 8080 |
 | ClusterName | - |
 | PageTitle | Demo test page |
 
