@@ -12,3 +12,4 @@ WORKDIR /root/
 COPY --from=build /build/src /root/src
 COPY --from=build /build/app /root
 CMD ["./app"] 
+EXPOSE 8080/TCP
